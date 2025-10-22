@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Paul Mathew — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- neon circuit background -->
+<canvas id="bg"></canvas>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="avatar">PM</div>
+      <div class="title">
+        <h1>Paul Mathew</h1>
+        <p class="tagline">Computer Science & Data Science Engineering Student</p>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <button id="downloadBtn" class="btn neon">Download Resume</button>
+    </nav>
+    <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<main class="container main">
+  <section id="hero" class="panel">
+    <div class="hero-left">
+      <h2>Hi, I'm <span class="neon-text">Paul</span></h2>
+      <p class="lead">I build intelligent solutions combining data science and software engineering. Passionate about ML, data analytics and making useful, usable systems.</p>
+      <div class="cta-row">
+        <a class="btn glow" href="#projects">View Projects</a>
+        <a class="ghost" id="contactScroll" href="#contact">Contact Me</a>
+      </div>
+      <div class="contact-cards">
+        <div class="card"><strong>Email</strong><a href="mailto:paul.mathewe77@gmail.com">paul.mathewe77@gmail.com</a></div>
+        <div class="card"><strong>Phone</strong><a href="tel:+917025599876">+91 70255 99876</a></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="profile-card">
+        <div class="profile-avatar">PM</div>
+        <h3>Paul Mathew</h3>
+        <p>Data Science | Machine Learning | Web</p>
+        <div class="mini-stats">
+          <div><strong>CGPA</strong><span>9.35</span></div>
+          <div><strong>College</strong><span>MA College of Eng.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="panel">
+    <h2>About</h2>
+    <p class="muted">Career Objective</p>
+    <p>To obtain a challenging position in the field of Computer Science and Data Science where I can apply my analytical, programming, and problem-solving skills to develop intelligent solutions and contribute to innovative projects.</p>
+
+    <h3>Personal Details</h3>
+    <ul class="details-grid">
+      <li><strong>Full name</strong><span>Paul Mathew</span></li>
+      <li><strong>Age</strong><span>20</span></li>
+      <li><strong>DOB</strong><span>20 May 2005</span></li>
+      <li><strong>Location</strong><span>Edappattu, Pothanicad, Ernakulam, Kerala - 686671</span></li>
+      <li><strong>Email</strong><span>paul.mathewe77@gmail.com</span></li>
+      <li><strong>Nationality</strong><span>Indian</span></li>
+    </ul>
+  </section>
+
+  <section id="skills" class="panel">
+    <h2>Skills</h2>
+    <div class="skill-grid">
+      <div class="skill">
+        <h4>Python</h4>
+        <div class="bar"><div class="fill" data-percent="85"></div></div>
+      </div>
+      <div class="skill">
+        <h4>Machine Learning</h4>
+        <div class="bar"><div class="fill" data-percent="80"></div></div>
+      </div>
+      <div class="skill">
+        <h4>Pandas / NumPy</h4>
+        <div class="bar"><div class="fill" data-percent="82"></div></div>
+      </div>
+      <div class="skill">
+        <h4>Java / C</h4>
+        <div class="bar"><div class="fill" data-percent="55"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="panel">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card" data-project="p1">
+        <h3>Heart Disease Risk Prediction</h3>
+        <p>AI-powered heart disease risk estimation — Logistic Regression, XGBoost, and Deep Learning comparative analysis.</p>
+        <button class="btn small" data-project="p1">View details</button>
+      </article>
+
+      <article class="project-card" data-project="p2">
+        <h3>Fake News Detection System</h3>
+        <p>Classified news as fake/real using TF-IDF, Naive Bayes and Decision Tree models.</p>
+        <button class="btn small" data-project="p2">View details</button>
+      </article>
+    </div>
+  </section>
+
+  <section id="education" class="panel">
+    <h2>Education</h2>
+    <div class="edu">
+      <h3>B.Tech in Computer Science & Engineering (Data Science)</h3>
+      <p>M.A. College of Engineering, Kothamangalam — 2025 (4th Semester) &nbsp; <strong>CGPA: 9.35</strong></p>
+      <h4>Higher Secondary</h4>
+      <p>Nirmala Higher Secondary School — 2023 — 99.75%</p>
+      <h4>Secondary School</h4>
+      <p>Vidya Vikas School — 2021 — 98%</p>
+    </div>
+
+    <h3>Internships</h3>
+    <ul>
+      <li><strong>Corizo Edutech</strong> — Data Analytics and Python (1 month)</li>
+      <li><strong>Peralsoft Technologies LLP</strong> — Machine Learning & Project Assistance (1 month)</li>
+    </ul>
+
+    <h3>Certifications</h3>
+    <ul>
+      <li>NPTEL: Internet of Things (IoT)</li>
+      <li>Kaggle: Machine Learning, Python</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="panel">
+    <h2>Contact</h2>
+    <p>Feel free to reach out — I'm open to internships or collaborative projects.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <strong>Email</strong>
+        <a href="mailto:paul.mathewe77@gmail.com">paul.mathewe77@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <strong>Phone</strong>
+        <a href="tel:+917025599876">+91 70255 99876</a>
+      </div>
+      <div class="contact-card">
+        <strong>Address</strong>
+        <span>Edappattu, Pothanicad, Ernakulam, Kerala - 686671</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Paul Mathew — Built with ♥ · Upload to GitHub Pages to publish</p>
+    <div class="footer-links">
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Project modal -->
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-content">
+    <button id="modalClose" class="modal-close" aria-label="Close">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

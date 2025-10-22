@@ -1,0 +1,36 @@
+Paul Mathew
+Computer Science & Data Science Engineering Student
+
+Career Objective:
+To obtain a challenging position in the field of Computer Science and Data Science where I can apply my analytical, programming, and problem-solving skills to develop intelligent solutions and contribute to innovative projects.
+
+Personal Details:
+Name: Paul Mathew
+Age: 20
+DOB: 20 May 2005
+Address: Edappattu, Pothanicad, Koovalloor P.O., Ernakulam, Kerala – 686671
+Phone: 7025599876
+Email: paul.mathewe77@gmail.com / pauledappattu@gmail.com
+Nationality: Indian
+
+Education:
+B.Tech in Computer Science & Engineering (Data Science) — M.A. College of Engineering, Kothamangalam — 2025 (4th Semester) — CGPA: 9.35
+Higher Secondary — Nirmala Higher Secondary School — 2023 — 99.75%
+Secondary School — Vidya Vikas School — 2021 — 98%
+
+Internships:
+- Corizo Edutech — Data Analytics and Python (1 month)
+- Peralsoft Technologies LLP — Machine Learning & Project Assistance (1 month)
+
+Projects:
+- Heart Disease Risk Prediction using Machine Learning
+  Tech: Python, Scikit-learn, TensorFlow
+
+- Fake News Detection System
+  Tech: Python, Scikit-learn, Pandas
+
+Certifications:
+- NPTEL: Internet of Things (IoT)
+- Kaggle: Machine Learning, Python
+
+(Replace this file with your PDF resume named 'resume.pdf' for proper downloadable resume.)
