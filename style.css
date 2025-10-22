@@ -159,16 +159,17 @@ footer .social-links {
 }
 
 footer .social-links a {
-  color: #00ffff;
+  color: #0ff; /* bright neon cyan (same as your accent1) */
   font-size: 1.8em;
   transition: transform 0.3s, color 0.3s, text-shadow 0.3s;
 }
 
 footer .social-links a:hover {
-  color: #ff00ff;
+  color: #ff00ff;           /* neon magenta on hover */
   transform: scale(1.2);
   text-shadow: 0 0 10px #ff00ff;
 }
+
 .social-links a {
   color: #00ffff;
   font-size: 1.8em;
