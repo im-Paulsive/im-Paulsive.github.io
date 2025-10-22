@@ -324,3 +324,114 @@ footer .social-links a:hover {
   .skill-grid { grid-template-columns: 1fr; }
   .details-grid { grid-template-columns: 1fr; }
 }
+/* ================== Mobile Interface ================== */
+@media (max-width: 600px) {
+
+  /* Layout adjustments */
+  body {
+    font-size: 14px;
+  }
+
+  #hero {
+    grid-template-columns: 1fr; /* stack hero content vertically */
+    text-align: center;
+  }
+
+  .hero-left h2 {
+    font-size: 22px;
+  }
+
+  .lead {
+    font-size: 14px;
+  }
+
+  .cta-row {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .contact-cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .projects-grid,
+  .skill-grid,
+  .details-grid {
+    grid-template-columns: 1fr; /* single column layout */
+    gap: 12px;
+  }
+
+  .profile-card {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+
+  .profile-avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .profile-avatar img {
+    height: 100%;
+    width: auto;
+  }
+
+  /* Navigation */
+  .nav {
+    display: none; /* hide normal nav */
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background: rgba(0,0,0,0.9);
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 8px;
+    z-index: 15;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .nav a {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 22px;
+    background: transparent;
+    border: none;
+    color: var(--muted);
+  }
+
+  /* Footer */
+  footer.site-footer {
+    padding: 20px 10px;
+  }
+
+  footer .social-links {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  /* Buttons */
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cta-row .btn {
+    width: 100%;
+  }
+}
