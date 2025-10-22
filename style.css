@@ -169,4 +169,17 @@ footer .social-links a:hover {
   transform: scale(1.2);
   text-shadow: 0 0 10px #ff00ff;
 }
+.social-links a {
+  color: #00ffff;
+  font-size: 1.8em;
+  transition: transform 0.3s, color 0.3s, text-shadow 0.3s;
+  outline: none;          /* removes default focus outline */
+  text-shadow: none;      /* remove any inherited shadow */
+}
+
+.social-links a:hover {
+  color: #ff00ff;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px #ff00ff; /* only magenta glow */
+}
 
