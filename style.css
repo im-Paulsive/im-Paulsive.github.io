@@ -144,3 +144,22 @@ body{
   .skill-grid{grid-template-columns:1fr}
   .details-grid{grid-template-columns:1fr}
 }
+footer {
+  text-align: center;
+  padding: 30px 0;
+  background: transparent;
+  color: #fff;
+}
+
+.social-links a {
+  color: #00ffff;
+  margin: 0 15px;
+  font-size: 1.8em;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ff00ff;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px #ff00ff;
+}
